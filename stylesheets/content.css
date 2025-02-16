@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'CarlaSansLight';
+	src: url('../fonts/CarlaSansLight.ttf') format('truetype');
+	font-style: Light;
+	font-weight: Light;
+}
+
+p {
+	font-family: 'CarlaSansLight';
+}
+
+.container {
+	margin-bottom: 30px;
+	padding: 20px;
+	border: 2px solid #7e7d7d;
+	background-color: #ddd;
+	border-radius: 10px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button {
+	margin: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
